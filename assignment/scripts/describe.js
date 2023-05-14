@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable called name and give it the string value 'Dane'.
+// We create a conditional statement that if name exactly matches 'Mary', we console log 'Hi, Mary!'
+// and if name is anything else, we console log 'How do you do?'
+// Because name is set to 'Dane' and not 'Mary', the code does not run the if statement, but runs the else statment.
+// The console.log would read 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +46,19 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare the variable secret.
+// We declare the variable code and set it to the number value of 123.
+
+// We write a conditional statment. If code exactly equals 123, the variable secret
+// is set to the string value of 'super' and the variable code is multiplied by two.
+// As the code is exactly 123, secret is now assigned the string value 'super' and code 
+// is multiplied by two resulting in the product of 246.
+// We write another conditional statement that if the code variable is greater
+// than 250, the secret variable is assigned the string value 'duper'.
+// The code variable (246) is less than 250, and will NOT be reassigned the value 'duper'.
+
+// Then, we have written a console.log(secret).
+// The console.log(secret) would read 'super'.
 
 //CODE
 /*
@@ -70,10 +80,23 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare the variable isStudent to the Boolean value of true.
+// We declare the variable age to the number 34.
+// We declare the variable zip to the number 55407.
+
+// We create a conditional statement with an if statment, two else if statements, and an else statment.
+// The first true statement in the statement chain will be run.
+// If the variable isStudent is exactly true and the variable zip is a number greater than 80,000,
+// then console.log will read 'You're a student on the West Coast!'.
+// If else, if the variable isStudent is exactly false or age is less than 30,
+// then console.log will read 'What are your hobbies?'
+// If else, if the variable isStudent is exactly true, 
+// console.log will read 'Welcome to Prime!'
+// Else, the console will log 'How about the weather?'
+
+// The second else if statment runs, as it is the first in true statment in the statment chain.
+// The console.log will read 'Welcome to Prime!'
+
 
 //CODE
 /*
