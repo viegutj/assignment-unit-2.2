@@ -153,10 +153,18 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be set to 'blue' and colorTwo should be set to 'red'.
+// Code should read:
+// let colorOne = 'blue;
+// let colorTwo = 'red'; 
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - Our description says that we should change the value of colorOne and colorTwo to Purple,
+// but here we are only changing colorOne.
+// Underneath colorOne = 'purple'; Code should read:
+// colorTwo = 'purple'; to change both variables.
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -168,8 +176,15 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX - the description asks for two variables, but time is set as a const. const is used for constants, not variables.
+// Code should read:
+// let time = 4;
 const time = 4;
 
+// FIX - In the description, it says that we check if temp is higher than 39 AND if time is greater than or
+// equal to 4. Our code is using the || (or) compound conditional. We need to use the && (and) compound conditional.
+// Could should read:
+// if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -181,8 +196,16 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+
+// FIX - The description asks for two variables. const is used for constants, not variables. However,
+// I would use const, as the drinking age (which I'm assuming this is what this is refering to) is constant.
+// So maybe the description is in need of an edit.
+// Should read let minAge = 21;
 const minAge = 21;
 
+// FIX - Our description asks for greater than or equal to (>=) minAge. Our code is showing less than our equal to (<=),
+// as well as the variables being out of order from the description.
+// The if statement should read if(age >= minAge).
 if(minAge <= age) {
   console.log('no entry');
 } else {
